@@ -1,0 +1,24 @@
+{
+  "name": "todo-application",
+  "version": "1.0.0",
+  "description": "Given an `app.js` file and database file `todoApplication.db` with a table `todo`.",
+  "main": "app.js",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "date-fns": "2.19.0",
+    "dotenv": "^16.4.5",
+    "express": "4.17.1",
+    "sqlite": "4.0.19",
+    "sqlite3": "5.0.2"
+  },
+  "scripts": {
+    "dev": "nodemon app.js",
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "devDependencies": {
+    "nodemon": "2.0.7"
+  }
+}
